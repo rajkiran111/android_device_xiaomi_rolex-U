@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Camera-face detection
+PRODUCT_PACKAGES += \
+    com.qualcomm.qti.camera
+
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.display.umax=1920x1080 \
